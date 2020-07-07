@@ -1,12 +1,12 @@
 const Discord = require('discord.js');
 const tpoints = {};
-const prefix = ":"
+const prefix = "1"
 const vpoints = {};
 const jimp = require("jimp");
 const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
- client.user.setActivity("DEV|CAMPER / :bc",{type: 'watching'})
+ client.user.setActivity("DEV|CAMPER / 1bc",{type: 'playing'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -50,4 +50,4 @@ client.on("message", message => {
 
 
 
-client.login("");
+client.login("NzI5Nzg1MDIxNDcyNDQwMzc0.XwSB2Q.yFghCErxUW_fhMgn236UXm30GrI");
