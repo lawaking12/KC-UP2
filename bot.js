@@ -6,7 +6,7 @@ const jimp = require("jimp");
 const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
- client.user.setActivity("DEV|CAMPER / 1bc",{type: 'playing'})
+ client.user.setActivity("DEV|LEVI / 1bc",{type: 'playing'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
