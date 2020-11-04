@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const tpoints = {};
-const prefix = "c!";
+const prefix = "you can not invite me";
 const vpoints = {};
 const jimp = require("jimp");
 const client = new Discord.Client();
