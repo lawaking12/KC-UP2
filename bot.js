@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(``) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(`tt`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("ئایدی چەناڵ لێرە دابنێ").send(
+  client.channels.get("774273256492498958").send(
 `> sent By  <@${message.author.id}> ✅ 
 ${message.content}`)
 }
