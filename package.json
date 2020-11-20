@@ -11,6 +11,7 @@
     "discord-anti-spam": "^1.1.2",
     "discord.js": "^11.6.4",
     "discord.js-musicbot-addon": "^1.10.3",
+    "ffmpeg": "^0.0.4",
     "express": "^4.16.3",
     "finalhandler": "^1.1.1",
     "fortnite": "^3.0.0",
