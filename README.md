@@ -1,3 +1,3 @@
 # partner-project-by camper
 
-تۆکین هەر لە bot.js لە کۆتا دێر دابنێ 
+تۆکین هەر لە index.js لە کۆتا دێر دابنێ 
