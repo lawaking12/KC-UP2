@@ -82,5 +82,5 @@ message.reply('**بڕۆ ڤۆیسیک**');
 
 });
 
-const.login("NzcyNDYzMjYwNDU1OTI3ODI4.X57CeA.sja7wTOr6pNO6fH5yjc7zw9Tkcg"); //تۆکن لێرە دابنی
+client.login("NzcyNDYzMjYwNDU1OTI3ODI4.X57CeA.sja7wTOr6pNO6fH5yjc7zw9Tkcg"); //تۆکن لێرە دابنی
 
