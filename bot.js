@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const tpoints = {};
-const prefix = "1";
+const prefix = "1"; //بەدلی خۆت پریفیکسی بنوسە
 const vpoints = {};
 const jimp = require("jimp");
 const client = new Discord.Client();
@@ -82,5 +82,5 @@ message.reply('**بڕۆ ڤۆیسیک**');
 
 });
 
-const.login("NzcyNDYzMjYwNDU1OTI3ODI4.X57CeA.sja7wTOr6pNO6fH5yjc7zw9Tkcg");
+const.login("NzcyNDYzMjYwNDU1OTI3ODI4.X57CeA.sja7wTOr6pNO6fH5yjc7zw9Tkcg"); //تۆکن لێرە دابنی
 
