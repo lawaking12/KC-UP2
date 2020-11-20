@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(`tt`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(``) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("774273256492498958").send(
+  client.channels.get("id جەنالەکە").send(
 `> sent By  <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -57,4 +57,4 @@ client.user.setGame(`شتێک بنوسە بۆ ستریمینگ`,"http://twitch.t
 
 
 
-client.login("NzcyNDYzMjYwNDU1OTI3ODI4.X57CeA.fgu3R752fcVoeWL9LQsU8yBHlyI");//تۆکین لێرە دانێ
+client.login("");//تۆکین لێرە دانێ
