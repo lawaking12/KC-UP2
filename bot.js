@@ -1,55 +1,5 @@
 const Discord = require("discord.js");
-const tpoints = {};
-const vpoints = {};
-const jimp = require("jimp");
-const client = new Discord.Client();
-client.on("ready", () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity("ڕیکلام بۆ منێرە", { type: "playing" });
-  console.log("");
-  console.log("");
-  console.log(
-    "╔[═════════════════════════════════════════════════════════════════]╗"
-  );
-  console.log(`[Start] ${new Date()}`);
-  console.log(
-    "╚[═════════════════════════════════════════════════════════════════]╝"
-  );
-  console.log("");
-  console.log("╔[════════════════════════════════════]╗");
-  console.log(`Logged in as * [ " ${client.user.username} " ]`);
-  console.log("");
-  console.log("Informations :");
-  console.log("");
-  console.log(`servers! [ " ${client.guilds.size} " ]`);
-  console.log(`Users! [ " ${client.users.size} " ]`);
-  console.log(`channels! [ " ${client.channels.size} " ]`);
-  console.log("╚[════════════════════════════════════]╝");
-  console.log("");
-  console.log("╔[════════════]╗");
-  console.log(" Bot Is Online");
-  console.log("╚[════════════]╝");
-  console.log("");
-  console.log("");
-});
-
-
-
-client.on("message" , message => {
-
-if(message.channel.type === 'dm') {
-
-if (message.content.startsWith("https://discord.gg/")) {
-    
-  message.author.send(`daxoi`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
-    
-  client.channels.get("779031554101346345").send(
-`> sent By  <@${message.author.id}> ✅ 
-${message.content}`)
-}
-    }
-        })
-
+const client = new Discord.Client({disableEveryone: true})
 
 
 client.on('message', message => { 
@@ -57,9 +7,7 @@ client.on('message', message => {
 if (!message.guild) return; 
 
 if (message.content === 'c!wara') { 
-  
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
-  
 if (message.member.voiceChannel) { 
 
 message.member.voiceChannel.join() 
@@ -73,7 +21,7 @@ message.member.voiceChannel.join()
 
 } else { 
 
-message.reply('**بڕۆ ڤۆیسیک**'); 
+message.reply('**خۆت لە ڤۆیس نیت بیمە کوێ من**'); 
 
 } 
 
@@ -81,5 +29,28 @@ message.reply('**بڕۆ ڤۆیسیک**');
 
 });
 
-client.login("NzcyNDYzMjYwNDU1OTI3ODI4.X57CeA.sja7wTOr6pNO6fH5yjc7zw9Tkcg"); //تۆکن لێرە دابنی
 
+client.on("message" , message => {
+
+if(message.channel.type === 'dm') {
+
+if (message.content.startsWith("https://discord.gg/")) {
+    
+  message.author.send(``) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+    
+  client.channels.get("ئایدی چەناڵ لێرە دابنێ").send(
+`> sent By  <@${message.author.id}> ✅ 
+${message.content}`)
+}
+    }
+        })
+
+client.login("");//تۆکین لێرە دانێ
+
+
+
+client.on('ready', () => {
+console.log(`ON ${client.guilds.size} Servers`);
+console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`شتێک بنوسە بۆ ستریمینگ`,"http://twitch.tv/PAYWANDcamper") 
+});
