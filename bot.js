@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const tpoints = {};
-const prefix = "1"; //بەدلی خۆت پریفیکسی بنوسە
 const vpoints = {};
 const jimp = require("jimp");
 const client = new Discord.Client();
@@ -57,7 +56,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === prefix + 'wara') { 
+if (message.content === 'c!wara') { 
   
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   
