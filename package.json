@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node bot.js"
   },
- "dependencies": {
-    "discord.js": "11.x",
+  "dependencies": {
+     "discord.js": "11.x",
     "enmap": "^5.8.1",
     "express": "^4.17.1",
     "moment": "^2.29.1",
@@ -17,6 +17,7 @@
     "pretty-ms": "^7.0.1",
     "sqlite": "^4.0.16",
     "sqlite3": "^5.0.0"
+ 
   },
   "engines": {
     "node": "8.x"
