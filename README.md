@@ -1,3 +1,4 @@
-# partner-project-by camper
+# ProBot_Credits
 
-تۆکین هەر لە index.js لە کۆتا دێر دابنێ 
+Get ProBot_Credits
+
