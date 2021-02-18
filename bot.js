@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const myid = ['331523392496730114'];// your id
-const prefix = ['>'];
+const prefix = ['#'];
  
 client.on('ready', () => {
    console.log(`----------------`);
@@ -127,4 +127,4 @@ if (!rank) return message.reply(' ')
 });
  
  
-client.login('');
+client.login('Nzg0MDc4OTk2MjU4MTYwNzEx.X8kEeA.FdwM_4sqs1eylzJ7JLNcM6wmWEc');
